@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import Board from './board';
+import Board from '../board';
 
-import { addMove, backInTime } from '../actions';
-import { nextPlayer, currentBoard, getWinner } from '../helpers';
+import { addMove, backInTime } from '../../actions';
+import { nextPlayer, currentBoard, getWinner } from '../../helpers';
 
 class Game extends React.Component {
 
